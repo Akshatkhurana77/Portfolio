@@ -1,160 +1,473 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akshat Khurana Portfolio</title>
-    <style>
-        body {
-            background-color: #FF5580;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-        header {
-            background-color: #444;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        marquee {
-            font-size: 1.5em;
-            color: white;
-        }
-        section {
-            margin: 20px;
-            padding: 20px;
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        h1, h2 {
-            text-align: center;
-            color: #444;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-        table, th, td {
-            border: 2px solid #444;
-        }
-        th, td {
-            padding: 10px;
-            text-align: center;
-        }
-        th {
-            background-color: #444;
-            color: white;
-        }
-        ul {
-            list-style-type: square;
-            padding-left: 20px;
-        }
-        footer {
-            background-color: #444;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            margin-top: 20px;
-        }
-        a {
-            color: #FF5580;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akshat Khurana | Full Stack Web Developer, Python & Android Developer</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="robots" content="index, follow" />
+
+<!-- SEO Meta -->
+<meta name="description" content="Akshat Khurana's personal portfolio showcasing projects in web development, Android apps, and Python tools. Explore skills, resume, and contact info." />
+<meta name="keywords" content="Akshat Khurana, portfolio, web developer, full stack developer, Python developer, Android developer, Firebase, PHP, MySQL, Bootstrap, React, Java, student projects" />
+<meta name="author" content="Akshat Khurana" />
+
+<!-- Open Graph Meta (LinkedIn/Facebook) -->
+<meta property="og:title" content="Akshat Khurana | Full Stack & App Developer" />
+<meta property="og:description" content="Portfolio of Akshat Khurana – Full Stack Web Developer, Python Developer, and Android App Builder." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://akshatkhurana77.github.io/Portfolio/" />
+<meta property="og:image" content="https://akshatkhurana77.github.io/Portfolio/images/b.png" />
+
+<!-- Twitter Card Meta -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Akshat Khurana | Developer Portfolio" />
+<meta name="twitter:description" content="View Akshat's portfolio: Web Dev, Python, Android apps, resume, and projects." />
+<meta name="twitter:image" content="https://akshatkhurana77.github.io/Portfolio/images/b.png" />
+<!-- Canonical URL -->
+<link rel="canonical" href="https://akshatkhurana77.github.io/Portfolio/" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="images/b.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+   html {
+    scroll-behavior: smooth;
+  }
+  </style>
 </head>
 <body>
+<header id="home" class="bg-dark text-light py-5">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Akshat</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ <div class="container mt-5">
+  <div class="row align-items-center">
+    <!-- Profile Image (Left Side) -->
+    <div class="col-md-4 text-center mb-4 mb-md-0">
+      <img src="images/b.png" alt="Akshat Khurana" class="rounded-circle" >
+    </div>
 
-<header>
-    <marquee>Portfolio: Akshat Khurana</marquee>
-    <h1>Welcome to My Portfolio</h1>
+    <!-- Content (Right Side) -->
+    <div class="col-md-8 text-center">
+      <h1>Hi, I'm <span class="text-info">Akshat</span></h1>
+      <p class="lead">Full Stack Web Developer | Python Developer |  Android Developer | Software Engineer</p>
+      <p><span id="typing" class="lead"></span></p>
+      <a href="resume/Akshat_Khurana_Resume.pdf" target="_blank" download class="btn btn-info mt-3">Download Resume</a>
+    </div>
+  </div>
+</div>
+
 </header>
 
-<section>
-    <h2>Hi! I'm Akshat Khurana</h2>
-    <p>I'm a student passionate about learning and achieving success in life.</p>
+
+<section id="about" class="py-5 bg-light text-dark">
+  <div class="container">
+    <h2 class="text-center mb-4">About Me</h2>
+        <p class="text-center lead">Full Stack Web Developer | Python Developer |  Android Developer | Software Engineer</p>
+
+    <p>A dedicated BCA graduate with a strong foundation in software development, data management, and mobile/web technologies. Passionate about building efficient, user-centric solutions and continuously exploring new advancements in cloud computing and cybersecurity.
+<br><br>
+Skilled in Java, Python, and C++, with hands-on experience using tools like Firebase, Pandas, and Matplotlib. Known for a logical approach to problem-solving, a collaborative mindset, and a constant drive to learn and adapt in dynamic tech environments.
+<br><br>
+Currently seeking opportunities to contribute to innovative projects while growing as a developer and technology professional.</p>
+   
+  </div>
 </section>
 
-<section>
-    <h2>Career Objective</h2>
-    <p>To succeed in life by working diligently under any situation. I aim to achieve better results in less time while contributing to organizational and personal growth.</p>
+<section id="projects" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Projects</h2>
+    <div class="row">
+
+      <!-- Project 1 -->
+     <div class="col-lg-4 col-md-6 mb-4">
+  <div class="card bg-dark text-light h-100">
+    <!-- <img src="images/student-teacher-portal.png" class="card-img-top" alt="Student-Teacher Portal"> -->
+    <div class="card-body d-flex flex-column">
+      <h5 class="card-title">Student-Teacher Portal</h5>
+      <p class="card-text">A full-stack web application for managing student and teacher profiles, academic records, attendance, and notices using PHP and MySQL.</p>
+      <div class="mb-2">
+        <span class="badge bg-info">HTML</span>
+        <span class="badge bg-info">CSS</span>
+        <span class="badge bg-info">JavaScript</span>
+        <span class="badge bg-info">PHP</span>
+        <span class="badge bg-info">MySQL</span>
+        <span class="badge bg-info">XAMPP</span>
+        <span class="badge bg-info">Apache</span>
+      </div>
+      <a href="https://github.com/Akshatkhurana77/Student-and-Teacher-Portal" class="btn btn-outline-info mt-auto" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+    </div>
+  </div>
+</div>
+
+
+      <!-- Project 2 -->
+     <div class="col-lg-4 col-md-6 mb-4">
+  <div class="card bg-dark text-light h-100">
+    <!-- <img src="images/ballot-buddy.png" class="card-img-top" alt="Ballot Buddy"> -->
+    <div class="card-body d-flex flex-column">
+      <h5 class="card-title">Ballot Buddy</h5>
+      <p class="card-text">Android voting application developed for college elections with Firebase authentication, Cloud Firestore database, and real-time vote tracking. Designed for secure, user-friendly voting on mobile devices.</p>
+      <div class="mb-2">
+        <span class="badge bg-info">Android Studio</span>
+        <span class="badge bg-info">Firebase</span>
+        <span class="badge bg-info">Cloud Firestore</span>
+        <span class="badge bg-info">Emulator</span>
+        <span class="badge bg-info">XML</span>
+      </div>
+      <a href="https://github.com/Akshatkhurana77/Ballot_Buddy-Voting-Application-" class="btn btn-outline-info mt-auto" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+    </div>
+  </div>
+</div>
+
+
+      <!-- Project 3 -->
+     <div class="col-lg-4 col-md-6 mb-4">
+  <div class="card bg-dark text-light h-100">
+    <!-- <img src="images/media-clone.png" class="card-img-top" alt="Media Frontend Clone"> -->
+    <div class="card-body d-flex flex-column">
+      <h5 class="card-title">Media Frontend Clone</h5>
+      <p class="card-text">A pixel-perfect frontend clone of a live media website, built using HTML, CSS, and JavaScript. Fully responsive and visually identical to the original design.</p>
+      <div class="mb-2">
+        <span class="badge bg-info">HTML</span>
+        <span class="badge bg-info">CSS</span>
+        <span class="badge bg-info">JavaScript</span>
+      </div>
+      <a href="https://github.com/Akshatkhurana77/Media--Frontend_Webpage" class="btn btn-outline-info mt-auto" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+    </div>
+  </div>
+</div>
+
+
+      <!-- Project 4 -->
+      <!-- <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card bg-dark text-light h-100">
+          <img src="images/task-manager.png" class="card-img-top" alt="Task Manager API">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Task Manager API</h5>
+            <p class="card-text">RESTful API built using Django REST Framework with JWT authentication and user-specific task management.</p>
+            <div class="mb-2">
+              <span class="badge bg-info">Python</span>
+              <span class="badge bg-info">Django</span>
+              <span class="badge bg-info">JWT</span>
+            </div>
+            <a href="https://github.com/yourusername/task-manager-api" class="btn btn-outline-info mt-auto" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- Project 5 -->
+      <!-- <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card bg-dark text-light h-100">
+          <img src="images/portfolio-site.png" class="card-img-top" alt="Portfolio Website">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Personal Portfolio Website</h5>
+            <p class="card-text">Fully responsive dark-mode portfolio with resume, skills, projects and contact form. Built with Bootstrap 5.</p>
+            <div class="mb-2">
+              <span class="badge bg-info">HTML</span>
+              <span class="badge bg-info">CSS</span>
+              <span class="badge bg-info">Bootstrap</span>
+            </div>
+            <a href="https://github.com/yourusername/portfolio" class="btn btn-outline-info mt-auto" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- Project 6 -->
+      <!-- <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card bg-dark text-light h-100">
+          <img src="images/attendance-portal.png" class="card-img-top" alt="Attendance Portal">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Attendance Management Portal</h5>
+            <p class="card-text">Web portal for teachers to track and export student attendance using PHP and MySQL with responsive UI.</p>
+            <div class="mb-2">
+              <span class="badge bg-info">PHP</span>
+              <span class="badge bg-info">MySQL</span>
+              <span class="badge bg-info">JavaScript</span>
+            </div>
+            <a href="https://github.com/yourusername/attendance-portal" class="btn btn-outline-info mt-auto" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+          </div>
+        </div>
+      </div> -->
+
+    </div>
+  </div>
 </section>
 
-<section>
-    <h2>Qualifications</h2>
-    <table>
-        <tr>
-            <th>Qualification</th>
-            <th>School/University</th>
-            <th>Year</th>
-            <th>Percentage</th>
-        </tr>
-        <tr>
-            <td>BCA</td>
-            <td>Guru Gobind Singh Indraprastha University</td>
-            <td>2022-2025</td>
-            <td>85% (Expected)</td>
-        </tr>
-        <tr>
-            <td>12th</td>
-            <td>New Green Field School, CBSE</td>
-            <td>2021-2022</td>
-            <td>80%</td>
-        </tr>
-        <tr>
-            <td>10th</td>
-            <td>New Green Field School, CBSE</td>
-            <td>2019-2020</td>
-            <td>60%</td>
-        </tr>
-    </table>
+
+
+
+<section id="experience" class="py-5 bg-light text-dark">
+  <div class="container">
+    <h2 class="text-center mb-4">Experience</h2>
+
+    <!-- Active Experience -->
+    <div class="card border-success mb-4">
+      <div class="card-body">
+        <h5 class="card-title d-flex justify-content-between align-items-center">
+          Intern - All India Council for Robotics & Automation(AICRA)
+          <span class="badge bg-success">Present</span>
+        </h5>
+        <h6 class="card-subtitle mb-2 text-muted">July 2025 – Present</h6>
+        <p class="card-text">
+         Contributing to the development and maintenance of responsive websites using HTML, CSS, JavaScript, PHP, and WordPress. Tasks include managing hosting and deployment via Hostinger, handling MySQL databases, and collaborating with design and backend teams to improve functionality and user experience. Gaining valuable hands-on experience in full-stack web development through real-time project involvement.</p>
+      </div>
+    </div>
+
+    <!-- Past Experience Example -->
+    <!-- <div class="card mb-4">
+      <div class="card-body">
+        <h5 class="card-title">Intern - XYZ Technologies</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Jan 2023 – Mar 2023</h6>
+        <p class="card-text">Built reusable UI components using Bootstrap and collaborated on team Git workflows.</p>
+      </div>
+    </div> -->
+
+  </div>
 </section>
 
-<section>
-    <h2>Experience</h2>
-    <p>Fresher</p>
+
+<!-- ✅ New Education Section -->
+<section id="education" class="py-5 bg-white text-dark">
+  <div class="container">
+    <h2 class="text-center mb-4">Education</h2>
+
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Bachelor of Computer Applications (BCA)</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Guru Gobind Singh Indraprastha University | 2022 – 2025</h6>
+        <p class="card-text">Graduated with a BCA degree, securing a CGPA of 8.747. Developed a solid foundation in software development, web technologies, database management, and cybersecurity fundamentals.</p>
+      </div>
+    </div>
+
+    <div class="card mt-3">
+      <div class="card-body">
+        <h5 class="card-title">Senior Secondary Education (12th)</h5>
+        <h6 class="card-subtitle mb-2 text-muted">CBSE | 2021 – 2022</h6>
+        <p class="card-text">Completed Senior Secondary Education with Commerce and Informatics Practices. Scored well in Accountancy and IP, building a strong foundation in business principles and computer applications.</p>
+      </div>
+    </div>
+
+    <div class="card mt-3">
+      <div class="card-body">
+        <h5 class="card-title">Secondary Education (10th)</h5>
+        <h6 class="card-subtitle mb-2 text-muted">CBSE | 2018 – 2020</h6>
+        <p class="card-text">Completed Secondary Education with strong performance in Mathematics, Science, and English, developing a solid academic foundation and analytical thinking skills.</p>
+
+      </div>
+    </div>
+    
+  </div>
 </section>
 
-<section>
-    <h2>Strengths</h2>
-    <ul>
-        <li>Good communication skills</li>
-        <li>Confident with a positive attitude</li>
-        <li>Leadership qualities</li>
-        <li>Self-motivated</li>
-    </ul>
+
+<section id="skills" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Skills</h2>
+    <div class="row">
+      <!-- Programming Languages -->
+      <div class="col-md-3 mb-3">
+        <div class="card bg-dark text-light h-100">
+          <div class="card-body">
+            <h5 class="card-title">Programming Languages</h5>
+            <ul>
+              <li>Java</li>
+              <li>Python</li>
+              <li>PHP</li>
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Web & App Development -->
+      <div class="col-md-3 mb-3">
+        <div class="card bg-dark text-light h-100">
+          <div class="card-body">
+            <h5 class="card-title">Web & App Development</h5>
+            <ul>
+              <li>Android Studio</li>
+              <li>XML</li>
+              <li>Firebase Authentication</li>
+              <li>Cloud Firestore</li>
+              <li>XAMPP & Apache</li>
+              <li>EmailJS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tools & Frameworks -->
+      <div class="col-md-3 mb-3">
+        <div class="card bg-dark text-light h-100">
+          <div class="card-body">
+            <h5 class="card-title">Tools & Frameworks</h5>
+            <ul>
+              <li>Bootstrap</li>
+              <li>Tailwind CSS</li>
+              <li>React (Basic)</li>
+              <li>Pandas</li>
+              <li>Matplotlib</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Databases & Platforms -->
+      <div class="col-md-3 mb-3">
+        <div class="card bg-dark text-light h-100">
+          <div class="card-body">
+            <h5 class="card-title">Databases & Platforms</h5>
+            <ul>
+              <li>MySQL</li>
+              <li>SQLite</li>
+              <li>Cloud Firestore</li>
+              <li>Git & GitHub</li>
+              <li>Hostinger</li>
+              <li>VS Code</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section>
-    <h2>Personal Details</h2>
-    <ul>
-        <li><strong>Name:</strong> Akshat Khurana</li>
-        <li><strong>Father's Name:</strong> Sudhir Khurana</li>
-        <li><strong>Mobile Number:</strong> 98710196**</li>
-        <li><strong>DOB:</strong> 04-09-2004</li>
-        <li><strong>Address:</strong> Tuglakabad Extn, New Delhi, 110019</li>
-    </ul>
+
+
+<section id="resume" class="py-2 bg-light text-dark">
+  <div class="container">
+    <h2 class="text-center mb-3" style="font-size: 1.6rem;">Resume</h2>
+    
+    <div class="row align-items-center">
+      
+      <!-- Left Column: Text + Button -->
+      <div class="col-md-6 text-center text-md-start mb-3 mb-md-0 px-4">
+        <h5 class="mb-2" style="font-size: 1.15rem;">Download My Resume</h5>
+        <p class="mb-2" style="font-size: 0.95rem; line-height: 1.4;">
+          Check out my qualifications and experience. Click below to view or download.
+        </p>
+        <a href="resume/Akshat_Khurana_Resume.pdf" target="_blank" download class="btn btn-info btn-sm">
+          Download PDF
+        </a>
+      </div>
+      
+      <!-- Right Column: Resume Preview Image -->
+      <div class="col-md-6 text-center">
+        <a href="resume/Akshat_Khurana_Resume.pdf" target="_blank" download>
+          <img src="images/resume-preview.jpeg" alt="Resume Preview"
+               class="img-fluid shadow-sm"
+               style="max-width: 270px; border: 1px solid #ccc; border-radius: 8px;">
+        </a>
+      </div>
+
+    </div>
+  </div>
 </section>
 
-<section>
-    <h2>Contact Me</h2>
-    <p>Feel free to connect with me on:</p>
-    <a href="https://www.instagram.com/akshatkhurana77/" target="_blank">Instagram</a><br>
-    <a href="https://www.facebook.com/akshat.khurana.581/" target="_blank">Facebook</a><br>
-    <a href="https://www.snapchat.com/add/akshat_khur2021" target="_blank">Snapchat</a><br>
-    <a href="https://in.linkedin.com/in/akshat-khurana-a01153254" target="_blank">LinkedIn</a><br>
-    <p>Email: <a href="mailto:akshatkhurana77@gmail.com">akshatkhurana77@gmail.com</a></p>
+
+
+
+
+
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Contact</h2>
+
+    <!-- Contact Form -->
+    <form id="contact-form" action="https://formspree.io/f/mblkzaob" method="POST" class="mx-auto" style="max-width: 500px;">
+      <div class="mb-3">
+        <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+      </div>
+      <div class="mb-3">
+        <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+      </div>
+      <div class="mb-3">
+        <textarea name="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="btn btn-info">Send Message</button>
+      </div>
+    </form>
+
+    <!-- Success Message -->
+    <div id="thank-you" class="alert alert-success text-center mt-3" style="display: none;">
+      ✅ Thank you! Your message has been sent.
+    </div>
+
+    <!-- Contact Info -->
+    <div class="text-center mt-4">
+      <p>
+        Email: <a href="mailto:akshatkhurana77@gmail.com">akshatkhurana77@gmail.com</a> |
+        Phone: <a href="tel:+919267905204">+91 92679 05204</a>
+      </p>
+      <a href="https://www.linkedin.com/in/akshat-khurana-/" target="_blank" class="btn btn-outline-info me-2">LinkedIn</a>
+      <a href="https://github.com/akshatkhurana77" target="_blank" class="btn btn-outline-info me-2">GitHub</a>
+    </div>
+  </div>
 </section>
 
-<footer>
-    <p>&copy; 2025 Akshat Khurana. All rights reserved.</p>
+<!-- JavaScript to prevent redirection and show success -->
+<script>
+  const form = document.getElementById("contact-form");
+  const thankYou = document.getElementById("thank-you");
+
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault(); // Stop default redirect
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch(form.action, {
+        method: "POST",
+        body: formData,
+        headers: {
+          Accept: "application/json"
+        }
+      });
+
+      if (response.ok) {
+        form.reset(); // clear the form
+        thankYou.style.display = "block"; // show thank-you message
+      } else {
+        alert("Something went wrong. Please try again.");
+      }
+    } catch (error) {
+      alert("There was a problem submitting the form.");
+    }
+  });
+</script>
+
+
+
+
+<footer class="bg-dark text-center text-light py-3">
+  <div class="container">
+    <p>© 2025 Akshat Khurana </p>
+  </div>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
